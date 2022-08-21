@@ -1,0 +1,25 @@
+.ItemDetails {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 85px);
+    /*85px is height of header (45px) + marin-bottom of header(10px) + top & bottom Main padding (15px)*/
+}
+
+.ItemDetails-ImgHolder {
+    border: var(--default-border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+/* .ItemDetails-Img {
+    max-height: 100%;
+    max-width: 100%;
+} */
+
+.ItemDetails-InfoWrapper {
+    flex: 0 0 auto;
+}

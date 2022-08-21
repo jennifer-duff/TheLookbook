@@ -1,0 +1,46 @@
+.FilterBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.FilterBtn:last-of-type {
+    margin-right: 0px;
+}
+
+.FilterBtn-Circle {
+    border-radius: 50%;
+    background-color: var(--med-gray);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+}
+
+.FilterBtn-Img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 15px;
+}
+
+.FilterBtn:last-of-type .FilterBtn-Img {
+    padding: 25px;
+}
+
+.FilterBtn-Label {
+    font-weight: 500;
+    font-size: 11pt;
+    text-transform: uppercase;
+}
+
+.FilterBtn-Active .FilterBtn-Label,
+.FilterBtn:hover .FilterBtn-Label {
+    font-weight: 900;
+    letter-spacing: -0.4px;
+}
